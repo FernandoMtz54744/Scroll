@@ -1,0 +1,51 @@
+body{
+    /* background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%); */
+    background: url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center, linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
+    margin: 0px;
+}
+
+.nube{
+    height: 200px;
+    position: relative;
+}
+
+.luna{
+    height: 200px;
+    position: relative;
+}
+
+.arbol1{
+    height: 200px;
+}
+
+.pinos1{
+    height: 200px;
+}
+
+.mountain1{
+    height: 200px;
+    position: fixed;
+    z-index: 101 !important;
+}
+
+/* .skrollr-container{
+    position: fixed;
+    width: 100vw;
+} */
+
+/*Estilos de skrollable web*/
+.skrollable {
+    position:fixed;
+    z-index:100;
+}
+/* .skrollr-mobile .skrollable {
+    position:absolute;
+}
+
+.skrollable .skrollable {
+    position:absolute;
+}
+
+.skrollable .skrollable .skrollable {
+    position:static; */
+}
